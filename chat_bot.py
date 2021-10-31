@@ -159,3 +159,4 @@ def api_low_total_fat():
 # app.run()
 # The line below is needed for it to be run on repl
 # app.run(host='0.0.0.0', port=8080)
+app.run(threaded=True, port=5000)
